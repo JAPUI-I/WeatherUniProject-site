@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoMetheo</title>
+  <link rel="stylesheet" href="./styles/global.css" />
+  <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico"> -->
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <div class="site-logo">EcoMetheo</div>
+
+        <nav class="site-nav">
+          <button class="nav-button is-active" data-page="home">Accueil</button>
+          <button class="nav-button" data-page="download">Télécharger</button>
+        </nav>
+
+        <div class="site-nav">
+        <button class="nav-button" data-page="faq">FAQ</button>
+            <div class="lang-menu">
+                <button class="lang-toggle" id="langToggle">
+                    <span id="currentLang">FR</span>                    
+                </button>
+
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-item is-active" data-lang="fr">
+                    <img src="assets/icons/flags/fr.png" alt="FR" />
+                    Français
+                    </button>
+
+                    <button class="lang-item" data-lang="en">
+                    <img src="assets/icons/flags/en.png" alt="EN" />
+                    English
+                    </button>
+
+                    <button class="lang-item" data-lang="ru">
+                    <img src="assets/icons/flags/ru.png" alt="RU" />
+                    Русский
+                    </button>
+
+                    <button class="lang-item" data-lang="de">
+                    <img src="assets/icons/flags/de.png" alt="DE" />
+                    Deutch
+                    </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="page-content" class="site-main container"></main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        © 2026 EcoMetheo
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
