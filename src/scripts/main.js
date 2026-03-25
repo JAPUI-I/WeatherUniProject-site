@@ -1,5 +1,7 @@
+import { initTranslations, setLanguage } from "./i18n.js";
+
 const content = document.getElementById("page-content");
-// load page content
+
 async function loadPage(pageName) {
   try {
     const response = await fetch(`./pages/${pageName}.html`);
@@ -11,14 +13,15 @@ async function loadPage(pageName) {
     const html = await response.text();
     content.innerHTML = html;
 
+    await initTranslations();
   } catch (error) {
     content.innerHTML = "<p>Erreur de chargement de la page.</p>";
     console.error(error);
   }
 }
-// update active nav button
+
 function setActiveNav(page) {
-  document.querySelectorAll(".nav-button").forEach(btn => {
+  document.querySelectorAll(".nav-button").forEach((btn) => {
     btn.classList.remove("is-active");
 
     if (btn.dataset.page === page) {
@@ -27,17 +30,27 @@ function setActiveNav(page) {
   });
 }
 
-// delegation allows us to handle clicks on dynamically loaded content without needing to reattach event listeners
-document.addEventListener("click", (e) => {
-  const button = e.target.closest("[data-page]");
-  if (!button) return;
+document.addEventListener("click", async (e) => {
+  const pageBtn = e.target.closest("[data-page]");
+  if (pageBtn) {
+    const page = pageBtn.dataset.page;
+    await loadPage(page);
+    setActiveNav(page);
+    return;
+  }
 
-  const page = button.dataset.page;
-  loadPage(page);
-  setActiveNav(page);
+  const langBtn = e.target.closest("[data-lang]");
+  if (langBtn) {
+    const lang = langBtn.dataset.lang;
+    await setLanguage(lang);
+
+    const langDropdown = document.getElementById("langDropdown");
+    if (langDropdown) {
+      langDropdown.classList.remove("open");
+    }
+  }
 });
 
-// initial load
 loadPage("home");
 setActiveNav("home");
 // Language selection logic
@@ -74,7 +87,6 @@ document.addEventListener("click", (e) => {
 
   langDropdown.classList.remove("open");
 
-  // здесь позже будет applyTranslations(lang)
 });
 langToggle.addEventListener("click", () => {
   langDropdown.classList.toggle("open");

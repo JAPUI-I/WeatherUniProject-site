@@ -1,0 +1,42 @@
+{   "index": {
+        "title": "EcoMétéo - Your Eco-Friendly Weather Assistant"
+    },
+    "nav": {
+        "home": "Home",
+        "download": "Download",
+        "faq": "FAQ"
+    },
+
+    "about": {
+        "text": "We are a team that cares about environmental issues, daily well-being, and the conscious use of technology. We believe that digital products should not only fulfill a technical function but also provide real value to people. That is why we are working on a solution that brings together information about weather, air quality, and users’ daily habits within a clear and accessible interface.",
+        "mission": "Our mission",
+        "missionText": "Our goal is to help people better understand the connection between the environment and their own lives. We want to make ecological and everyday information more accessible, visually understandable, and useful in daily use. It is important for us that technology does not simply collect data, but helps people understand it and make more conscious decisions.",
+        "stoicism": "The idea was born from a simple thought that “Greatness begins with small things.” This quote, attributed to Francis Drake (“Sic Parvis Magna” in the original), shows that paying attention to our small daily habits can lead to significant change. Moreover, our paradigm aligns well with the philosophical idea of Stoicism, where self-control is emphasized while the rest remains beyond our control.",
+        "product": "About our product",
+        "productText": "Our product combines two main functions on a single platform. The first part focuses on weather and air quality: users can obtain current data on weather conditions, forecasts, and air status in the selected city. The second part is a daily tracker that allows users to answer questions about their day and receive clear visualizations by days, weeks, and months. This approach not only provides information but also helps users identify patterns in their own habits and interactions with the environment.",
+        "weather": "Weather",
+        "weatherText": "A weather visualizer that will always be within reach and will continuously improve its features for our users.",
+        "co2Tracker": "CO2 Tracker",
+        "co2TrackerText": "As well as a tracker of the carbon footprint that users leave through everyday, not always obvious actions.",
+        "why": "Why we created this product",
+        "whyText": "We created this product to draw people’s attention to the issue of global warming and to show that responsibility does not lie only with multinational corporations, but also with ordinary individuals like you and us. There are many people on Earth, and if there is any opportunity to unite against a problem that could potentially affect our home, our team will gladly embrace it.",
+        "whyText2": "The first issue is that the average person does not realize how many traces they leave behind. Their choices among many others can influence the planet on a global scale.",
+        "whyText3": "We want to offer a product that enables people to become aware of their choices. To take responsibility for their decisions and collectively influence the world.",
+        "whyText4": "In turn, we want to show everyone that each person should be responsible and mindful of their actions.",
+        "values": "Our values",
+        "valuesText": "We believe in simplicity, accessibility, and a thoughtful approach to development. It is important to us that the product is clear for the user, does not overwhelm them with unnecessary complexity, and at the same time provides useful information. We also consider it important to develop digital solutions with human and social responsibility. Technology is not an end in itself for us, but a tool that should help people better understand the world around them and themselves.",
+        "team": "Our team",
+        "teamText": "We are a motivated team of students united by an interest in development, design, and creating useful digital products. For us, this project is not just an academic assignment, but an opportunity to build a solution that combines technical implementation, a clear user experience, and a meaningful idea. We aim to create products that not only work but also carry purpose."
+    },
+    "download": {
+        "title": "Download the application",
+        "text": "Install the latest version of our application on your computer.",
+        "downloadButton": "Download for Windows",
+        "note": "Note: The application is currently available only for Windows. We are working on a version for MacOS and Linux. Do not be afraid of SmartScreen.",
+        "version": "Version",
+        "minimumRequirements": "Minimum requirements",
+        "orNewer": "or newer",
+        "gigabytes": "GB",
+        "megabytes": "MB of free space"
+    }
+}

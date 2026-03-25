@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EcoMetheo</title>
+  <title data-i18n="index.title" ></title>
   <link rel="stylesheet" href="./styles/global.css" />
   <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico"> -->
 </head>
@@ -11,15 +11,15 @@
   <div class="site-shell">
     <header class="site-header">
       <div class="container site-header__inner">
-        <div class="site-logo">EcoMetheo</div>
+        <div class="site-logo">EcoMétéo</div>
 
         <nav class="site-nav">
-          <button class="nav-button is-active" data-page="home">Accueil</button>
-          <button class="nav-button" data-page="download">Télécharger</button>
+          <button class="nav-button is-active" data-page="home" data-i18n="nav.home"></button>
+          <button class="nav-button" data-page="download" data-i18n="nav.download"></button>
         </nav>
 
         <div class="site-nav">
-        <button class="nav-button" data-page="faq">FAQ</button>
+        <button class="nav-button" data-page="faq" data-i18n="nav.faq"></button>
             <div class="lang-menu">
                 <button class="lang-toggle" id="langToggle">
                     <span id="currentLang">FR</span>                    
@@ -61,5 +61,6 @@
   </div>
 
   <script type="module" src="./scripts/main.js"></script>
+  <script type="module" src="./scripts/i18n.js"></script>
 </body>
 </html>

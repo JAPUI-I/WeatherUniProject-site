@@ -1,0 +1,42 @@
+{   "index": {
+        "title": "EcoMétéo - Ihr umweltfreundlicher Wetterassistent"
+    },
+    "nav": {
+        "home": "Startseite",
+        "download": "Herunterladen",
+        "faq": "FAQ"
+    },
+
+    "about": {
+        "text": "Wir sind ein Team, das sich mit Fragen der Ökologie, des täglichen Wohlbefindens und der bewussten Nutzung von Technologien beschäftigt. Wir glauben, dass digitale Produkte nicht nur eine technische Funktion erfüllen sollten, sondern auch einen echten Nutzen für die Menschen bringen müssen. Deshalb arbeiten wir an einer Lösung, die Informationen über Wetter, Luftqualität und die täglichen Gewohnheiten der Nutzer in einer klaren und zugänglichen Benutzeroberfläche zusammenführt.",
+        "mission": "Unsere Mission",
+        "missionText": "Unser Ziel ist es, Menschen dabei zu helfen, den Zusammenhang zwischen Umwelt und ihrem eigenen Leben besser zu verstehen. Wir möchten ökologische und alltägliche Informationen zugänglicher, visuell verständlicher und im täglichen Gebrauch nützlicher machen. Für uns ist es wichtig, dass Technologie nicht nur Daten sammelt, sondern den Menschen hilft, diese zu verstehen und bewusstere Entscheidungen zu treffen.",
+        "stoicism": "Die Idee entstand aus dem einfachen Gedanken, dass „Großes im Kleinen beginnt“. Dieses Zitat, das Francis Drake zugeschrieben wird („Sic Parvis Magna“ im Original), zeigt, dass die Aufmerksamkeit für unsere kleinen täglichen Gewohnheiten zu großen Veränderungen führen kann. Darüber hinaus lässt sich unser Ansatz gut mit der philosophischen Idee des Stoizismus vereinbaren, bei der im Wesentlichen Selbstkontrolle im Vordergrund steht, während der Rest außerhalb unserer Kontrolle liegt.",
+        "product": "Über unser Produkt",
+        "productText": "Unser Produkt vereint zwei Hauptfunktionen auf einer Plattform. Der erste Teil ist dem Wetter und der Luftqualität gewidmet: Nutzer können aktuelle Daten zu Wetterbedingungen, Prognosen und Luftzustand in der gewählten Stadt erhalten. Der zweite Teil ist ein täglicher Tracker, der es den Nutzern ermöglicht, Fragen zu ihrem Tag zu beantworten und eine klare Visualisierung nach Tagen, Wochen und Monaten zu erhalten. Dieser Ansatz ermöglicht es nicht nur, Informationen zu erhalten, sondern auch bestimmte Muster in den eigenen Gewohnheiten und der Interaktion mit der Umwelt zu erkennen.",
+        "weather": "Wetter",
+        "weatherText": "Ein Wetter-Visualizer, der immer griffbereit ist und seine Funktionen täglich für unsere Nutzer verbessert.",
+        "co2Tracker": "CO2-Tracker",
+        "co2TrackerText": "Sowie ein Tracker für den CO2-Fußabdruck, den Nutzer durch alltägliche, nicht immer offensichtliche Handlungen hinterlassen.",
+        "why": "Warum wir dieses Produkt geschaffen haben",
+        "whyText": "Wir haben dieses Produkt entwickelt, um die Aufmerksamkeit der Menschen auf das Problem der globalen Erwärmung zu lenken und der Öffentlichkeit zu zeigen, dass die Verantwortung nicht nur bei multinationalen Konzernen liegt, sondern auch bei gewöhnlichen Menschen wie Ihnen und uns. Es gibt viele Menschen auf der Erde, und wenn es irgendeine Möglichkeit gibt, sich gegen ein Problem zu vereinen, das potenziell unser Zuhause bedrohen könnte, wird unser Team diese Gelegenheit begrüßen.",
+        "whyText2": "Das erste Problem ist, dass der durchschnittliche Mensch nicht erkennt, wie viele Spuren er hinterlässt. Dass seine Wahl unter vielen anderen Optionen die Erde auf globaler Ebene beeinflussen kann.",
+        "whyText3": "Wir möchten ein Produkt anbieten, das es den Menschen ermöglicht, sich ihrer Entscheidungen bewusst zu werden. Verantwortung für ihre Handlungen zu übernehmen und kollektiv Einfluss auf die Welt zu nehmen.",
+        "whyText4": "Wir möchten wiederum allen zeigen, dass jeder verantwortungsbewusst und achtsam in seinem Handeln sein sollte.",
+        "values": "Unsere Werte",
+        "valuesText": "Wir glauben an Einfachheit, Zugänglichkeit und einen durchdachten Entwicklungsansatz. Für uns ist es wichtig, dass das Produkt für den Nutzer verständlich ist, ihn nicht mit unnötiger Komplexität überlastet und gleichzeitig nützliche Informationen liefert. Wir halten es auch für wichtig, digitale Lösungen mit menschlicher und sozialer Verantwortung zu entwickeln. Technologie ist für uns kein Selbstzweck, sondern ein Werkzeug, das Menschen helfen soll, die Welt um sie herum und sich selbst besser zu verstehen.",
+        "team": "Unser Team",
+        "teamText": "Wir sind ein motiviertes Team von Studierenden, vereint durch das Interesse an Entwicklung, Design und der Schaffung nützlicher digitaler Produkte. Für uns ist dieses Projekt nicht nur eine Studienaufgabe, sondern eine Gelegenheit, eine Lösung zu schaffen, die technische Umsetzung, klare Benutzererfahrung und eine bedeutungsvolle Idee vereint. Wir möchten Produkte schaffen, die nicht nur funktionieren, sondern auch Sinn haben."
+    },
+    "download": {
+        "title": "Anwendung herunterladen",
+        "text": "Installieren Sie die neueste Version unserer Anwendung auf Ihrem Computer.",
+        "downloadButton": "Für Windows herunterladen",
+        "note": "Hinweis: Die Anwendung ist derzeit nur für Windows verfügbar. Wir arbeiten an einer Version für MacOS und Linux. Haben Sie keine Angst vor SmartScreen.",
+        "version": "Version",
+        "minimumRequirements": "Mindestanforderungen",
+        "orNewer": "oder neuer",
+        "gigabytes": "GB",
+        "megabytes": "MB freier Speicherplatz"
+}
+}
