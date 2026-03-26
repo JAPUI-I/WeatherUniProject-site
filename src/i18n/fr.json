@@ -1,0 +1,43 @@
+{   "index": {
+        "title": "EcoMétéo - Votre assistant météo écologique"
+    },
+    "nav": {
+        "home": "Accueil",
+        "download": "Télécharger",
+        "faq": "FAQ"
+    },
+
+    "about": {
+        "text": "Nous sommes une équipe qui se soucie des questions d'écologie, du bien-être quotidien et de l'utilisation consciente des technologies. Nous pensons que les produits numériques doivent non seulement remplir une fonction technique, mais aussi apporter un réel bénéfice aux gens. C'est pourquoi nous travaillons sur une solution qui rassemble les informations sur la météo, la qualité de l'air et les habitudes quotidiennes de l'utilisateur dans une interface claire et accessible.",
+        "mission": "Notre mission",
+        "missionText": "Notre objectif est d'aider les gens à mieux comprendre le lien entre l'environnement et leur propre vie. Nous voulons rendre les informations écologiques et quotidiennes plus accessibles, visuellement compréhensibles et utiles dans l'utilisation quotidienne. Il est important pour nous que la technologie ne se contente pas de collecter des données, mais aide les gens à les comprendre et à prendre des décisions plus conscientes.",
+        "stoicism": "L'idée est née d'une pensée simple, à savoir que « Le grand commence par le petit ». Cette citation attribuée à Francis Drake (« Sic Parvis Magna » dans l'original) montre que prêter attention à nos petites habitudes quotidiennes peut entraîner de grands changements. De plus, notre paradigme s'accorde facilement avec l'idée philosophique du Stoïcisme, où en gros, le contrôle de soi est mis en avant, et le reste est hors de notre contrôle.",
+        "product" : "A propos de notre produit",
+        "productText": "Notre produit combine deux fonctions principales sur une seule plateforme. La première partie est consacrée à la météo et à la qualité de l'air : l'utilisateur peut obtenir des données actuelles sur les conditions météorologiques, les prévisions et l'état de l'air dans la ville choisie. La deuxième partie est un traqueur quotidien, qui permet à l'utilisateur de répondre à des questions sur sa journée et d'obtenir une visualisation claire par jours, semaines et mois. Cette approche permet non seulement d'obtenir des informations, mais aussi de voir certains schémas dans ses propres habitudes et son interaction avec l'environnement.",
+        "weather": "Météo",
+        "weatherText": "Un visualiseur météo qui sera toujours à portée de main et améliorera quotidiennement ses fonctionnalités pour nos utilisateurs.",
+        "co2Tracker": "Tracker CO2",
+        "co2TrackerText": "Ainsi qu'un traceur de l'empreinte CO2 que l'utilisateur laisse derrière lui en faisant des choses quotidiennes non évidentes.",
+        "why": "Pourquoi nous avons créé ce produit",
+        "whyText": "Nous avons créé ce produit pour attirer l'attention des gens sur le problème du réchauffement climatique et montrer au public que la responsabilité incombe non seulement aux multinationales, mais aussi aux gens ordinaires comme vous et moi. Il y a beaucoup de personnes sur Terre, et s'il existe une quelconque possibilité de nous unir contre un problème qui pourrait potentiellement s'abattre sur notre maison, notre équipe sera ravie de cette opportunité.",
+        "whyText2": "Le premier problème, c'est que la personne moyenne ne se rend pas compte de combien de traces elle laisse. Que son choix parmi une multitude d'autres choix peut influencer la planète à l'échelle mondiale.",
+        "whyText3": "Nous voulons offrir un produit qui permettra aux gens d'avoir connaissance de leur choix. Être responsables de leurs décisions et pouvoir influencer le monde collectivement.",
+        "whyText4": "Nous, à notre tour, voulons montrer à tous que chacun doit être responsable et conscient de ses actions.",
+        "values": "Nos valeurs",
+        "valuesText": "Nous croyons en la simplicité, l'accessibilité et une approche réfléchie du développement. Il est important pour nous que le produit soit clair pour l'utilisateur, ne le surcharge pas avec une complexité inutile et, en même temps, fournisse des informations utiles. Nous considérons également important de développer des solutions numériques avec une responsabilité humaine et sociale. La technologie n'est pas une fin en soi pour nous, mais un outil qui doit aider les gens à mieux comprendre le monde qui les entoure et eux-mêmes.",
+        "team": "Notre équipe",
+        "teamText": "Nous sommes une équipe motivée d'étudiants, unis par l'intérêt pour le développement, le design et la création de produits numériques utiles. Pour nous, ce projet n'est pas seulement un devoir scolaire, mais une opportunité de créer une solution qui combine la réalisation technique, une expérience utilisateur claire et une idée significative. Nous voulons créer des produits qui non seulement fonctionnent, mais ont aussi du sens."
+    },
+    "download": {
+        "title": "Télécharger l’application",
+        "text": "Installez la dernière version de notre application sur votre ordinateur.",
+        "downloadButton": "Télécharger pour Windows",
+        "note": "Note : L’application est actuellement disponible uniquement pour Windows. Nous travaillons à une version pour MacOS et Linux. N'ayez pas peur de SmartScreen.",
+        "version": "Version",
+        "minimumRequirements": "Configuration minimale",
+        "orNewer": "ou plus récent",
+        "gigabytes": "Go",
+        "megabytes": "Mo d’espace libre"
+    }
+
+}
