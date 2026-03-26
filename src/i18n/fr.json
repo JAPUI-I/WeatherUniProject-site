@@ -36,8 +36,12 @@
         "version": "Version",
         "minimumRequirements": "Configuration minimale",
         "orNewer": "ou plus récent",
-        "gigabytes": "Go",
+        "gigabytes": "Go RAM",
         "megabytes": "Mo d’espace libre"
-    }
+    },
+    "commingsoon": {
+        "line": "Bientôt disponible"
 
+    }
+    
 }

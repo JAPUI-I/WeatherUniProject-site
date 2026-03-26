@@ -36,7 +36,10 @@
         "version": "Version",
         "minimumRequirements": "Mindestanforderungen",
         "orNewer": "oder neuer",
-        "gigabytes": "GB",
+        "gigabytes": "GB RAM",
         "megabytes": "MB freier Speicherplatz"
-}
+},
+    "commingsoon": {
+        "line": "Bald verfügbar"
+    }
 }
