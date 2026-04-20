@@ -6,7 +6,19 @@
         "download": "Télécharger",
         "faq": "FAQ"
     },
-
+    "home": {
+        "title": "Bienvenue sur notre produit",
+        "text": "Suivez la météo, la qualité de l’air et vos habitudes quotidiennes dans une interface simple.",
+        "download": "Télécharger",
+        "about": "En savoir plus",
+        "features": "Fonctionnalités",
+        "weather": "Météo",
+        "weathertext": "Consultez les conditions météorologiques actuelles et les prévisions.",
+        "air": "Qualité de l’air",
+        "airtext": "Visualisez l’état de l’air et les indicateurs essentiels.",
+        "tracking": "Suivi",
+        "trackingtext": "Analysez les habitudes quotidiennes grâce à des visualisations simples."
+    },
     "about": {
         "text": "Nous sommes une équipe qui se soucie des questions d'écologie, du bien-être quotidien et de l'utilisation consciente des technologies. Nous pensons que les produits numériques doivent non seulement remplir une fonction technique, mais aussi apporter un réel bénéfice aux gens. C'est pourquoi nous travaillons sur une solution qui rassemble les informations sur la météo, la qualité de l'air et les habitudes quotidiennes de l'utilisateur dans une interface claire et accessible.",
         "mission": "Notre mission",
@@ -26,7 +38,15 @@
         "values": "Nos valeurs",
         "valuesText": "Nous croyons en la simplicité, l'accessibilité et une approche réfléchie du développement. Il est important pour nous que le produit soit clair pour l'utilisateur, ne le surcharge pas avec une complexité inutile et, en même temps, fournisse des informations utiles. Nous considérons également important de développer des solutions numériques avec une responsabilité humaine et sociale. La technologie n'est pas une fin en soi pour nous, mais un outil qui doit aider les gens à mieux comprendre le monde qui les entoure et eux-mêmes.",
         "team": "Notre équipe",
-        "teamText": "Nous sommes une équipe motivée d'étudiants, unis par l'intérêt pour le développement, le design et la création de produits numériques utiles. Pour nous, ce projet n'est pas seulement un devoir scolaire, mais une opportunité de créer une solution qui combine la réalisation technique, une expérience utilisateur claire et une idée significative. Nous voulons créer des produits qui non seulement fonctionnent, mais ont aussi du sens."
+        "teamText": "Nous sommes une équipe motivée d'étudiants, unis par l'intérêt pour le développement, le design et la création de produits numériques utiles. Pour nous, ce projet n'est pas seulement un devoir scolaire, mais une opportunité de créer une solution qui combine la réalisation technique, une expérience utilisateur claire et une idée significative. Nous voulons créer des produits qui non seulement fonctionnent, mais ont aussi du sens.",
+        "member1": "Edhar Ovsepian",
+        "member1Text": "CEO, Fondateur",
+        "member2": "Damir Holdin",
+        "member2Text": "CTO, Développeur",
+        "member3": "Olexii Shkliarov",
+        "member3Text": "CMO, Designer",
+        "member4": "Abdul Mustafa",
+        "member4Text": "CFO, Analyste financier"
     },
     "download": {
         "title": "Télécharger l’application",
@@ -42,6 +62,36 @@
     "commingsoon": {
         "line": "Bientôt disponible"
 
-    }
+    },
+    "faq": {
+        "title": "Foire aux questions",
+        "subtitle": "Trouvez des réponses aux questions les plus fréquentes concernant notre produit, ses fonctionnalités et le processus de téléchargement.",
+        "q1": "À quoi sert ce produit ?",
+        "a1": "Ce produit aide les utilisateurs à mieux comprendre le lien entre la météo, la qualité de l’air et leurs habitudes quotidiennes grâce à une interface claire et accessible.",
+        "q2": "EcoMétéo est-il gratuit ?",
+        "a2": "Oui, EcoMétéo est entièrement gratuit. Nous pensons qu’il est important de rendre les informations environnementales accessibles à tous.",
+        "q3": "Quelles fonctionnalités le produit inclut-il ?",
+        "a3": "Le produit comprend des informations météorologiques, des indicateurs de qualité de l’air et un suivi quotidien permettant aux utilisateurs de visualiser leurs habitudes au fil du temps.",
+        "q4": "Quelles plateformes sont prises en charge ?",
+        "a4": "Pour le moment, l’application est disponible pour Windows. Des versions pour d’autres systèmes d’exploitation pourront être ajoutées ultérieurement.",
+        "q5": "Comment puis-je télécharger l’application ?",
+        "a5": "Vous pouvez télécharger la dernière version de notre application dans la section Téléchargement.",
+        "q6": "Collectez-vous des données personnelles ?",
+        "a6": "Notre objectif est de maintenir une expérience utilisateur simple et respectueuse. Les données collectées doivent être limitées, utiles et traitées de manière responsable.",
+        "q7": "Pourquoi Windows affiche-t-il un avertissement SmartScreen ?",
+        "a7": "Cet avertissement peut apparaître parce que l’application n’est pas encore signée avec un certificat commercial. Cela est courant pour les projets étudiants et indépendants.",
+        "q8": "Comment puis-je contacter l’équipe ?",
+        "a8": "Vous pouvez nous contacter via les informations fournies sur le site ou dans le dépôt du projet."
+    },
+    "footer": {
+        "description": "Un outil simple pour comprendre la météo, la qualité de l’air et les habitudes quotidiennes.",
+        "navigation": "Navigation",
+        "home": "Accueil",
+        "download": "Télécharger",
+        "about": "À propos",
+        "faq": "FAQ",
+        "resources": "Ressources",
+        "bottom": "Tous droits réservés."
+}
     
 }

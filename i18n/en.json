@@ -6,6 +6,19 @@
         "download": "Download",
         "faq": "FAQ"
     },
+    "home": {
+        "title": "Welcome to our product",
+        "text": "Track weather, air quality, and your daily habits in a simple interface.",
+        "download": "Download",
+        "about": "About",
+        "features": "Features",
+        "weather": "Weather",
+        "weathertext": "Check current weather conditions and forecasts.",
+        "air": "Air quality",
+        "airtext": "View air conditions and key indicators.",
+        "tracking": "Tracking",
+        "trackingtext": "Analyze daily habits with simple visualizations."
+    },
 
     "about": {
         "text": "We are a team that cares about environmental issues, daily well-being, and the conscious use of technology. We believe that digital products should not only fulfill a technical function but also provide real value to people. That is why we are working on a solution that brings together information about weather, air quality, and users’ daily habits within a clear and accessible interface.",
@@ -26,7 +39,15 @@
         "values": "Our values",
         "valuesText": "We believe in simplicity, accessibility, and a thoughtful approach to development. It is important to us that the product is clear for the user, does not overwhelm them with unnecessary complexity, and at the same time provides useful information. We also consider it important to develop digital solutions with human and social responsibility. Technology is not an end in itself for us, but a tool that should help people better understand the world around them and themselves.",
         "team": "Our team",
-        "teamText": "We are a motivated team of students united by an interest in development, design, and creating useful digital products. For us, this project is not just an academic assignment, but an opportunity to build a solution that combines technical implementation, a clear user experience, and a meaningful idea. We aim to create products that not only work but also carry purpose."
+        "teamText": "We are a motivated team of students united by an interest in development, design, and creating useful digital products. For us, this project is not just an academic assignment, but an opportunity to build a solution that combines technical implementation, a clear user experience, and a meaningful idea. We aim to create products that not only work but also carry purpose.",
+        "member1": "Edgar Ovsepyan",
+        "member1Text": "CEO, Founder",
+        "member2": "Damir Goldin",
+        "member2Text": "CTO, Developer",
+        "member3": "Alexey Shklyarov",
+        "member3Text": "CMO, Designer",
+        "member4": "Abdul Mustafa",
+        "member4Text": "CFO, Financial Analyst"
     },
     "download": {
         "title": "Download the application",
@@ -41,6 +62,36 @@
     },
     "commingsoon": {
         "line": "Comming Soon"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to the most common questions about our product, features, and download process.",
+        "q1": "What is this product for?",
+        "a1": "This product helps users better understand the connection between weather, air quality, and their daily habits through a clear and accessible interface.",
+        "q2": "Is EcoMétéo free to use?",
+        "a2": "Yes, EcoMétéo is completely free to use. We believe in making environmental information accessible to everyone.",
+        "q3": "What features does the product include?",
+        "a3": "The product includes weather information, air quality indicators, and a daily tracker that helps users visualize their habits over time.",
+        "q4": "Which platforms are supported?",
+        "a4": "At the moment, the application is available for Windows. Future versions for other operating systems may be added later.",
+        "q5": "How can I download the application?",
+        "a5": "You can download the latest version of our application from the Download section",
+        "q6": "Do you collect personal data?",
+        "a6": "Our goal is to keep the user experience simple and respectful. Any collected data should be limited, useful, and handled responsibly.",
+        "q7": "Why does Windows show a SmartScreen warning?",
+        "a7": "This warning can appear because the application is not yet signed with a commercial certificate. This is common for student and independent projects.",
+        "q8": "How can I contact the team?",
+        "a8": "You can contact us through the information provided on the website or project repository."
+    },
+    "footer": {
+        "description": "A simple tool to understand weather, air quality, and daily habits.",
+        "navigation": "Navigation",
+        "home": "Home",
+        "download": "Download",
+        "about": "About",
+        "faq": "FAQ",
+        "resources": "Resources",
+        "bottom": "All rights reserved."
     }
     
 }
