@@ -5,6 +5,21 @@ export function getCurrentLanguage() {
   return currentLang;
 }
 
+export async function setLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem("lang", lang);
+
+  await loadTranslations(lang);
+  applyTranslations();
+  updateLangUI(lang);
+}
+
+export async function initTranslations() {
+  await loadTranslations(currentLang);
+  applyTranslations();
+  updateLangUI(currentLang);
+}
+
 async function loadTranslations(lang) {
   try {
     const response = await fetch(`./i18n/${lang}.json`);
@@ -20,46 +35,38 @@ async function loadTranslations(lang) {
   }
 }
 
-function getTranslation(key) {
-  return key.split(".").reduce((obj, part) => obj?.[part], translations) || key;
+function translateKey(key) {
+  return key
+    .split(".")
+    .reduce((obj, part) => obj?.[part], translations) || key;
 }
 
 export function applyTranslations() {
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const key = element.dataset.i18n;
-    const translatedText = getTranslation(key);
+  const elements = document.querySelectorAll("[data-i18n]");
 
-    element.textContent = translatedText;
+  elements.forEach((el) => {
+    const key = el.dataset.i18n;
+    el.textContent = translateKey(key);
   });
 }
 
 export function updateLangUI(lang) {
-  const currentLangLabel = document.getElementById("currentLang");
+  updateCurrentLangLabel(lang);
+  updateActiveLangButton(lang);
+}
 
-  if (currentLangLabel) {
-    currentLangLabel.textContent = lang.toUpperCase();
-  }
+function updateCurrentLangLabel(lang) {
+  const label = document.getElementById("currentLang");
+  if (!label) return;
 
-  document.querySelectorAll(".lang-item").forEach((button) => {
-    button.classList.remove("is-active");
+  label.textContent = lang.toUpperCase();
+}
 
-    if (button.dataset.lang === lang) {
-      button.classList.add("is-active");
-    }
+function updateActiveLangButton(lang) {
+  const buttons = document.querySelectorAll(".lang-item");
+
+  buttons.forEach((btn) => {
+    const isActive = btn.dataset.lang === lang;
+    btn.classList.toggle("is-active", isActive);
   });
-}
-
-export async function setLanguage(lang) {
-  currentLang = lang;
-  localStorage.setItem("lang", lang);
-
-  await loadTranslations(lang);
-  applyTranslations();
-  updateLangUI(lang);
-}
-
-export async function initTranslations() {
-  await loadTranslations(currentLang);
-  applyTranslations();
-  updateLangUI(currentLang);
 }

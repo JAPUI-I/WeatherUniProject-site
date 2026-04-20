@@ -41,12 +41,12 @@
   --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
 }
 
-/* Reset */
+/* Reset
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 html {
   font-size: 16px;
@@ -417,7 +417,7 @@ a {
   padding: var(--space-lg);
 }
 
-/* Utility */
+
 .stack-sm > * + * {
   margin-top: var(--space-sm);
 }
@@ -430,7 +430,6 @@ a {
   margin-top: var(--space-lg);
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .hero__inner,
   .card-grid,

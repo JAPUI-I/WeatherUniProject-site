@@ -45,6 +45,11 @@
                     <img src="assets/icons/flags/de.png" alt="DE" />
                     Deutch
                     </button>
+
+                    <button class="lang-item" data-lang="ch">
+                    <img src="assets/icons/flags/ch.png" alt="CH" />
+                    中国人
+                    </button>
                 </div>
             </div>
         </div>
@@ -53,12 +58,43 @@
 
     <main id="page-content" class="site-main container"></main>
 
-    <footer class="site-footer">
-      <div class="container site-footer__inner">
-        © 2026 EcoMetheo
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+
+    <div class="footer-grid">
+
+      <div class="footer-column">
+        <h3 class="footer-title">EcoMétéo</h3>
+        <p class="footer-text" data-i18n="footer.description">
+        </p>
       </div>
-    </footer>
+
+      <div class="footer-column">
+        <h3 class="footer-title" data-i18n="footer.navigation"></h3>
+        <ul class="footer-list">
+          <li><a href="#" data-page="home" data-i18n="footer.home"></a></li>
+          <li><a href="#" data-page="about" data-i18n="footer.about"></a></li>
+          <li><a href="#" data-page="download" data-i18n="footer.download"></a></li>
+          <li><a href="#" data-page="faq" data-i18n="footer.faq"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="footer-title" data-i18n="footer.resources"></h3>
+        <ul class="footer-list">
+          <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+          <li><a href="mailto:ecometeo@contact.com">ecometeo@contact.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 EcoMétéo. <span data-i18n="footer.bottom"></span></p>
+    </div>
+
   </div>
+</footer>
 
   <script type="module" src="./scripts/main.js"></script>
   <script type="module" src="./scripts/i18n.js"></script>
