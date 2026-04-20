@@ -6,6 +6,19 @@
         "download": "Herunterladen",
         "faq": "FAQ"
     },
+    "home": {
+        "title": "Willkommen zu unserem Produkt",
+        "text": "Verfolgen Sie Wetter, Luftqualität und Ihre täglichen Gewohnheiten in einer einfachen Benutzeroberfläche.",
+        "download": "Herunterladen",
+        "about": "Mehr erfahren",
+        "features": "Funktionen",
+        "weather": "Wetter",
+        "weathertext": "Sehen Sie aktuelle Wetterbedingungen und Vorhersagen ein.",
+        "air": "Luftqualität",
+        "airtext": "Überblick über die Luftqualität und wichtige Indikatoren.",
+        "tracking": "Tracking",
+        "trackingtext": "Analysieren Sie tägliche Gewohnheiten mit einfachen Visualisierungen."
+    },
 
     "about": {
         "text": "Wir sind ein Team, das sich mit Fragen der Ökologie, des täglichen Wohlbefindens und der bewussten Nutzung von Technologien beschäftigt. Wir glauben, dass digitale Produkte nicht nur eine technische Funktion erfüllen sollten, sondern auch einen echten Nutzen für die Menschen bringen müssen. Deshalb arbeiten wir an einer Lösung, die Informationen über Wetter, Luftqualität und die täglichen Gewohnheiten der Nutzer in einer klaren und zugänglichen Benutzeroberfläche zusammenführt.",
@@ -26,7 +39,15 @@
         "values": "Unsere Werte",
         "valuesText": "Wir glauben an Einfachheit, Zugänglichkeit und einen durchdachten Entwicklungsansatz. Für uns ist es wichtig, dass das Produkt für den Nutzer verständlich ist, ihn nicht mit unnötiger Komplexität überlastet und gleichzeitig nützliche Informationen liefert. Wir halten es auch für wichtig, digitale Lösungen mit menschlicher und sozialer Verantwortung zu entwickeln. Technologie ist für uns kein Selbstzweck, sondern ein Werkzeug, das Menschen helfen soll, die Welt um sie herum und sich selbst besser zu verstehen.",
         "team": "Unser Team",
-        "teamText": "Wir sind ein motiviertes Team von Studierenden, vereint durch das Interesse an Entwicklung, Design und der Schaffung nützlicher digitaler Produkte. Für uns ist dieses Projekt nicht nur eine Studienaufgabe, sondern eine Gelegenheit, eine Lösung zu schaffen, die technische Umsetzung, klare Benutzererfahrung und eine bedeutungsvolle Idee vereint. Wir möchten Produkte schaffen, die nicht nur funktionieren, sondern auch Sinn haben."
+        "teamText": "Wir sind ein motiviertes Team von Studierenden, vereint durch das Interesse an Entwicklung, Design und der Schaffung nützlicher digitaler Produkte. Für uns ist dieses Projekt nicht nur eine Studienaufgabe, sondern eine Gelegenheit, eine Lösung zu schaffen, die technische Umsetzung, klare Benutzererfahrung und eine bedeutungsvolle Idee vereint. Wir möchten Produkte schaffen, die nicht nur funktionieren, sondern auch Sinn haben.",
+        "member1": "Edhar Ovsepian",
+        "member1Text": "CEO, Gründer",
+        "member2": "Damir Holdin",
+        "member2Text": "CTO, Entwickler",
+        "member3": "Olexii Shkliarov",
+        "member3Text": "CMO, Designer",
+        "member4": "Abdul Mustafa",
+        "member4Text": "CFO, Finanzanalyst"
     },
     "download": {
         "title": "Anwendung herunterladen",
@@ -41,5 +62,35 @@
 },
     "commingsoon": {
         "line": "Bald verfügbar"
-    }
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Finden Sie Antworten auf die häufigsten Fragen zu unserem Produkt, seinen Funktionen und dem Download-Prozess.",
+        "q1": "Wofür ist dieses Produkt gedacht?",
+        "a1": "Dieses Produkt hilft Nutzern, den Zusammenhang zwischen Wetter, Luftqualität und ihren täglichen Gewohnheiten durch eine klare und zugängliche Benutzeroberfläche besser zu verstehen.",
+        "q2": "Ist EcoMétéo kostenlos?",
+        "a2": "Ja, EcoMétéo ist vollständig kostenlos. Wir glauben daran, Umweltinformationen für alle zugänglich zu machen.",
+        "q3": "Welche Funktionen umfasst das Produkt?",
+        "a3": "Das Produkt umfasst Wetterinformationen, Luftqualitätsindikatoren und einen täglichen Tracker, der Nutzern hilft, ihre Gewohnheiten im Laufe der Zeit zu visualisieren.",
+        "q4": "Welche Plattformen werden unterstützt?",
+        "a4": "Derzeit ist die Anwendung für Windows verfügbar. Zukünftige Versionen für andere Betriebssysteme können später hinzugefügt werden.",
+        "q5": "Wie kann ich die Anwendung herunterladen?",
+        "a5": "Sie können die neueste Version unserer Anwendung im Download-Bereich herunterladen.",
+        "q6": "Sammeln Sie persönliche Daten?",
+        "a6": "Unser Ziel ist es, die Benutzererfahrung einfach und respektvoll zu gestalten. Alle gesammelten Daten sollten begrenzt, nützlich und verantwortungsvoll verarbeitet werden.",
+        "q7": "Warum zeigt Windows eine SmartScreen-Warnung an?",
+        "a7": "Diese Warnung kann erscheinen, weil die Anwendung noch nicht mit einem kommerziellen Zertifikat signiert ist. Das ist bei studentischen und unabhängigen Projekten üblich.",
+        "q8": "Wie kann ich das Team kontaktieren?",
+        "a8": "Sie können uns über die auf der Website oder im Projekt-Repository angegebenen Informationen kontaktieren."
+    },
+    "footer": {
+        "description": "Ein einfaches Tool, um Wetter, Luftqualität und tägliche Gewohnheiten zu verstehen.",
+        "navigation": "Navigation",
+        "home": "Startseite",
+        "download": "Herunterladen",
+        "about": "Über uns",
+        "faq": "FAQ",
+        "resources": "Ressourcen",
+        "bottom": "Alle Rechte vorbehalten."
+}
 }
