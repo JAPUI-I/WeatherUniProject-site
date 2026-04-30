@@ -1,7 +1,7 @@
 let currentLang = localStorage.getItem("lang") || "fr";
 let translations = {};
 
-export function getCurrentLanguage() {
+function getCurrentLanguage() {
   return currentLang;
 }
 
@@ -41,7 +41,7 @@ function translateKey(key) {
     .reduce((obj, part) => obj?.[part], translations) || key;
 }
 
-export function applyTranslations() {
+function applyTranslations() {
   const elements = document.querySelectorAll("[data-i18n]");
 
   elements.forEach((el) => {
@@ -50,7 +50,7 @@ export function applyTranslations() {
   });
 }
 
-export function updateLangUI(lang) {
+function updateLangUI(lang) {
   updateCurrentLangLabel(lang);
   updateActiveLangButton(lang);
 }
