@@ -2,23 +2,15 @@ import { initTranslations, setLanguage } from "./i18n.js";
 
 const content = document.getElementById("page-content");
 async function loadPage(pageName) {
-  try {
     const response = await fetch(`./pages/${pageName}.html`);
-    if (!response.ok) {
-      throw new Error(`Impossible de charger la page: ${pageName}`);
-    }
     const html = await response.text();
     content.innerHTML = html;
 
     await initTranslations();
+  
     if (pageName === "home") {
       startCarousel();
     }
-  } catch (error) {
-    content.innerHTML = "<p>Erreur de chargement de la page.</p>";
-    console.error(error);
-
-  }
 }
 
 function setActiveNav(page) {
@@ -58,19 +50,6 @@ setActiveNav("home");
 const langToggle = document.getElementById("langToggle");
 const langDropdown = document.getElementById("langDropdown");
 const currentLangLabel = document.getElementById("currentLang");
-
-let currentLang = localStorage.getItem("lang") || "fr";
-
-function updateLangUI(lang) {
-  currentLangLabel.textContent = lang.toUpperCase();
-  document.querySelectorAll(".lang-item").forEach(btn => {
-    btn.classList.remove("is-active");
-    if (btn.dataset.lang === lang) {
-      btn.classList.add("is-active");
-    }
-  });
-}
-updateLangUI(currentLang);
 
 // Handle language selection
 document.addEventListener("click", (e) => {
